@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>yard_slam</name>
+  <version>0.0.0</version>
+  <description>The yard_slam package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="karl@todo.todo">karl</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <!-- For custom messages -->
+  <!-- <buildtool_depend>rosidl_default_generators</buildtool_depend> -->
+  
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_io</depend>
+  <depend>pcl_1.10</depend>
+  <depend>pcl_ros</depend>
+  <depend>eigen</depend>
+  <depend>boost</depend>
+  <depend>my_interfaces</depend>
+  
+   <!-- For custom messages -->
+   <!-- <exec_depend>rosidl_default_runtime</exec_depend> -->
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
